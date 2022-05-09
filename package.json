@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-rb",
+  "name": "@mnet-ui/cra-template-rb",
   "description": "The official React Boilerplate template for Create React App",
   "version": "1.2.4",
   "repository": {
@@ -18,6 +18,9 @@
     "template",
     "template.json"
   ],
+  "publishConfig": {
+    "@mnet-ui:registry": "http://npm.internal.media.net/repository/npm-internal/"
+  },
   "keywords": [
     "react",
     "create-react-app",
